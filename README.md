@@ -37,7 +37,7 @@ cd cms_data_analysis
 scram b
 ```
 
-There are no imput files defined in the configuration file 'demoanalyzer_cfg.py' and no files in the 'datasets' directory, so you will need to find a DiMuon data set on cerns opendata website. An example of a good data set is one that is similar to this one: http://opendata.cern.ch/record/6004. After you go to this page or find one sililar, you need to download the JSON.txt file and an index file into your datasets directory.
+There are no imput files defined in the configuration file 'demoanalyzer_cfg.py' and no files in the 'datasets' directory, so you will need to find a DiMuon data set on cerns opendata website. An example of a good data set is one that is similar to this one: http://opendata.cern.ch/record/10. After you go to this page or find one sililar, you need to download the JSON.txt file and an index file into your datasets directory.
 
 Run the example as configured in the configuration file. 
 
