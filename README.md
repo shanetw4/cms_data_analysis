@@ -24,7 +24,6 @@ For this example, you need to create an additional directory, you can call it `c
 Go to this directory, and download the example code.
 
 ```
-
 mkdir cern
 cd cern
 git clone git://github.com/shanetw4/cms_data_analysis.git
@@ -34,14 +33,14 @@ Go to the example directory, and compile with `scram b`.
 
 ```
 cd cms_data_analysis
-scram b
 ```
 
-There are no imput files defined in the configuration file 'demoanalyzer_cfg.py' and no files in the 'datasets' directory, so you will need to find a DiMuon data set on cerns opendata website. An example of a good data set is one that is similar to this one: http://opendata.cern.ch/record/10. After you go to this page or find one sililar, you need to download the JSON.txt file and an index file into your datasets directory. You also need to edit the demoanalyzer_cfg.py file and follow the directions in the file to specify your JSON.txt file and index file.
+There are no imput files defined in the configuration file 'demoanalyzer_cfg.py' and no files in the 'datasets' directory, so you will need to find a DiMuon data set on cerns opendata website. An example of a good data set is one that is similar to this one: http://opendata.cern.ch/record/6042. After you go to this page or find one sililar, you need to download the JSON.txt file and an index file into your datasets directory. You also need to edit the demoanalyzer_cfg.py file and follow the directions in the file to specify your JSON.txt file and index file.
 
 Run the example as configured in the configuration file. 
 
 ```
+scram b
 cmsRun demoanalyzer_cfg.py
 ```
 The output of the example is a root file containing several histograms, by default DoubleMu.root with 10000 input events (small subset of data). These can be looked at using a Root Browser.
